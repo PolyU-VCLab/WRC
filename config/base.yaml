@@ -1,0 +1,33 @@
+# conf/config.yaml
+defaults:
+  - model: wrc
+  - backbone: base
+  - optimizer: adamw
+  - dataset@train_dataset: train
+  - dataset@val_dataset: val
+  - dataloader@train_dataloader: train
+  - dataloader@val_dataloader: val
+  - _self_
+
+# General parameters
+epochs: 4
+max_steps: 100_000
+project_root: ${hydra:runtime.cwd}
+dataroot: /data/imagenet
+patch_size: 14
+img_size: 224
+crop_size: 448
+num_local_crops: 4
+downsampling_regularization: 0.1
+augmentation_strength: 1.0
+augmentation_regularization: 0.1
+gradient_accumulation_steps: 1
+
+
+sanity: False
+
+# Hydra configuration
+hydra:
+  run:
+    dir: ./work_dirs/${model.name}/${backbone.name}/${now:%Y-%m-%d-%H-%M-%S}
+    

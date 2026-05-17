@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wrc"
+version = "0.1.0"
+description = "WRC: Weighted Reverse Convolution feature upsampling"
+license = "CC-BY-4.0"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Wentong Li, Zhiyuan Qi, Zichen Zhao, Kai Zhang, Lei Zhang" }
+]
+classifiers = [
+    "License :: Other/Proprietary License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "opencv-python",
+    "pandas",
+    "pycocotools",
+    "scikit-image",
+    "timm",
+    "tensorboard",
+    "hydra-core",
+    "rich",
+    "scikit-learn",
+    "scipy",
+    "torch",
+    "torchvision",
+    "tqdm",
+]
+keywords = ["computer vision", "upsampling", "deep learning"]
+
+[project.urls]
+"Homepage" = "TODO"
+"Repository" = "TODO"
+"Paper" = "TODO"
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["wrc*", "torch_wrc*"]

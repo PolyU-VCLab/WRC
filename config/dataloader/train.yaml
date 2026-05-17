@@ -1,0 +1,9 @@
+_target_: torch.utils.data.DataLoader
+
+dataset: ${dataset.train}
+batch_size: 4
+shuffle: True
+worker_init_fn: 
+  _target_: wrc.utils.training.seed_worker
+num_workers: 32
+pin_memory: True

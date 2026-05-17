@@ -1,0 +1,5 @@
+defaults:
+  - train  # Load default settings from train.yaml
+
+# Override specific parameters for validation
+root: /data/imagenet2012_val

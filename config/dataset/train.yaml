@@ -1,0 +1,4 @@
+_target_: wrc.utils.dataloader.ImageDataset
+root: ${dataroot}/train
+root_cache: ${project_root}/data/cache/train
+min_side_threshold: 448

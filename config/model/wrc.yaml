@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+
+_target_: wrc.model.WRCUpsampler
+in_channels: ${get_feature:${backbone.name}}
+patch_size: ${get_patch:${backbone.name}}
+pre_shape: False
+post_shape: False
+name: wrc
