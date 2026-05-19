@@ -1,4 +1,4 @@
-# [Weighted Reverse Convolution for Feature Upsampling]()
+# [Weighted Reverse Convolution for Feature Upsampling](https://arxiv.org/abs/2605.17472)
 
 Wentong Li<sup>1,&ast;</sup>, Zhiyuan Qi<sup>1,2,&ast;</sup>, Zichen Zhao<sup>1</sup>, Kai Zhang<sup>3</sup>, Lei Zhang<sup>2,†</sup>
 
@@ -20,9 +20,7 @@ Wentong Li<sup>1,&ast;</sup>, Zhiyuan Qi<sup>1,2,&ast;</sup>, Zichen Zhao<sup>1<
 
 ## Update
 
-- **2026.5.xx:** The paper and this repo are released.
-
-
+- **2026.05.19:** The paper and codes are released.
 
 ## Motivation
 
@@ -160,7 +158,7 @@ WRC produces sharper and more localized similarity maps than common upsampling o
 @article{li2026WRC,
   title={Weighted Reverse Convolution for Feature Upsampling},
   author={Li, Wentong and Qi, Zhiyuan and Zhao, Zichen and Zhang, Kai and Zhang, Lei},
-  journal={arXiv preprint arXiv: 2601.xxxxx},
+  journal={arXiv preprint arXiv: 2605.17472},
   year={2026}
 }
 ```
