@@ -1,10 +1,30 @@
-# [Weighted Reverse Convolution for Feature Upsampling](https://arxiv.org/abs/2605.17472)
 
-Wentong Li<sup>1,&ast;</sup>, Zhiyuan Qi<sup>1,2,&ast;</sup>, Zichen Zhao<sup>1</sup>, Kai Zhang<sup>3</sup>, Lei Zhang<sup>2,†</sup>
+<h1 align="center">
+  Weighted Reverse Convolution for Feature Upsampling
+</h1>
 
-<sup>1</sup>Nanjing University of Aeronautics and Astronautics  
-<sup>2</sup>The Hong Kong Polytechnic University  
-<sup>3</sup>Nanjing University
+<div align=center>
+<a href="" target="_blank">
+    <img alt="WRC" src="https://img.shields.io/badge/WRC-BFE57E" height="25" />
+</a>
+<a href="https://arxiv.org/abs/2605.17472" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2605.17472-red?logo=arxiv" height="25" />
+</a>
+ </div>
+
+<p align="center">
+  Wentong Li<sup>1,*</sup>,
+  Zhiyuan Qi<sup>1,2,*</sup>,
+  Zichen Zhao<sup>1</sup>,
+  Kai Zhang<sup>3</sup>,
+  Lei Zhang<sup>2,†</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>Nanjing University of Aeronautics and Astronautics<br>
+  <sup>2</sup>The Hong Kong Polytechnic University<br>
+  <sup>3</sup>Nanjing University
+</p>
 
 
 
