@@ -4,9 +4,6 @@
 </h1>
 
 <div align=center>
-<a href="" target="_blank">
-    <img alt="WRC" src="https://img.shields.io/badge/WRC-BFE57E" height="25" />
-</a>
 <a href="https://arxiv.org/abs/2605.17472" target="_blank">
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2605.17472-red?logo=arxiv" height="25" />
 </a>
