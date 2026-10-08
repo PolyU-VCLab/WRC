@@ -23,9 +23,12 @@
   <sup>3</sup>Nanjing University
 </p>
 
+---
 
-![Video Visualizations](assets/WRC-demo.gif)
 
+<p align="center">
+  <img src="assets/WRC-demo.gif" alt="Video Visualizations" width="500">
+</p>
 
 ---
 - [Update](#update)
