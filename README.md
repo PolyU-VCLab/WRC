@@ -24,6 +24,8 @@
 </p>
 
 
+![Video Visualizations](assets/WRC-demo.gif)
+
 
 ---
 - [Update](#update)
@@ -33,6 +35,7 @@
 - [Experiments](#experiments)
 - [Visualization](#visualization)
 - [Citation](#citation)
+
 
 
 ## Update
